@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Create Infrastructure') {
             steps {
-                dir('terraform-files') { # Terra dostalarinin bulundugu klasor adi
+                dir('terraform-files') {
                     script {
                         sh(script: 'terraform init', returnStdout: true)
                         sh(script: 'terraform plan', returnStdout: true)
