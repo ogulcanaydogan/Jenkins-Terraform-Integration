@@ -11,10 +11,10 @@ provider "aws" {
   region = "us-east-1" 
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "ogulcanaydogan2222"  
+  bucket = "ogulcanaydogan22222"  
 
   tags = {
-    Name        = "ogulcanaydogan222"
+    Name        = "ogulcanaydogan2222"
     Environment = "Development"
   }
 }
