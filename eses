@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        AWS_ACCESS=credentials('AWS-Jenkins')
+        AWS_ACCESS=credentials('Cem')
         AWS_REGION = 'us-east-1'
     }
     stages {
