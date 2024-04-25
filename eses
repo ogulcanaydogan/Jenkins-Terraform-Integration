@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Echo Stage') {
             steps {
-                echo 'YUSUF ABI IS THE GOAT'
+                echo 'MESUT ABI IS THE GOAT'
             }
         }
     }
